@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title>Digicare</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,9 +18,13 @@
                         <li><a href="#banner">Beranda</a></li>
                         <li><a href="#about">Tentang</a></li>
                         <li><a href="#activity">Kegiatan</a></li>
-                        <li><a href="#">Aktivitas</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Kategori</a></li>
+                        <li><a href="#">Aktivitas <i class='bx bxs-chevron-up'></i>
+                            </a>
+                        </li>
+                        <li><a href="#">Blog <i class='bx bxs-chevron-up'></i>
+                            </a>
+                        </li>
+                        <li><a href="#category">Kategori</a></li>
                         <li><a href="#">Akun</a></li>
                     </ul>
                 </div>
@@ -40,7 +45,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, magni quidem ea reiciendis, officia eius deleniti laborum, eum praesentium molestias atque odit optio pariatur ut nulla assumenda perferendis blanditiis! Amet sequi soluta dolores impedit nisi, hic totam tempora atque, laboriosam consequatur accusantium, eligendi ab adipisci repudiandae cupiditate. Deserunt consectetur aspernatur sequi recusandae ut nobis, quae autem soluta, repudiandae molestias odit maxime.</p>
                 </div>
                 <div class="image-banner">
-                    <img src="https://tse2.mm.bing.net/th?id=OIP.LLlkDDqwEL2Buc3uMPOpdQHaE8&pid=Api&P=0" alt="">
+                    <img class="img" src="https://tse2.mm.bing.net/th?id=OIP.LLlkDDqwEL2Buc3uMPOpdQHaE8&pid=Api&P=0" alt="">
                 </div>
             </div>
             <!-- Start Banner  -->
@@ -59,7 +64,7 @@
                 <h1 class="title">Kegiatan</h1>
                 <div class="activity-column">
                     <div class="image-activity">
-                        <img src="https://4.bp.blogspot.com/-kNhmJciFUDs/WHZZaH7JbNI/AAAAAAAAARM/k7GrUXX-O_Yqng2tO4rC0VaMRLWB1dZFQCLcB/w1200-h630-p-k-no-nu/Picture-1_Gotong-Royong.jpg" alt="">
+                        <img class="img" src="https://4.bp.blogspot.com/-kNhmJciFUDs/WHZZaH7JbNI/AAAAAAAAARM/k7GrUXX-O_Yqng2tO4rC0VaMRLWB1dZFQCLcB/w1200-h630-p-k-no-nu/Picture-1_Gotong-Royong.jpg" alt="">
                     </div>
                     <div class="text-activity">
                         <b>Menanam Pohon</b>
@@ -72,7 +77,84 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur in inventore praesentium rerum placeat, molestiae minus, distinctio dolorem ipsum, animi hic necessitatibus dolore sed ducimus dolores alias asperiores. Est similique aperiam corrupti esse, dignissimos minima iste omnis eum pariatur minus, odio, possimus exercitationem accusamus debitis! Odio beatae perspiciatis temporibus voluptatum harum, totam commodi alias. </p>
                     </div>
                     <div class="image-activity">
-                        <img src="https://4.bp.blogspot.com/-kNhmJciFUDs/WHZZaH7JbNI/AAAAAAAAARM/k7GrUXX-O_Yqng2tO4rC0VaMRLWB1dZFQCLcB/w1200-h630-p-k-no-nu/Picture-1_Gotong-Royong.jpg" alt="">
+                        <img class="img" src="https://4.bp.blogspot.com/-kNhmJciFUDs/WHZZaH7JbNI/AAAAAAAAARM/k7GrUXX-O_Yqng2tO4rC0VaMRLWB1dZFQCLcB/w1200-h630-p-k-no-nu/Picture-1_Gotong-Royong.jpg" alt="">
+                    </div>
+                </div>
+                <div id="category" class="category">
+                    <div class="container-gallery">
+                        <div class="gallery">
+                            <img src="https://suneducationgroup.com/wp-content/uploads/2021/04/social-work-Copy-1024x480.jpg" alt="">
+                        </div>
+                        <div class="gallery">
+                            <img src="https://careertraining.ed2go.com/common/images/1/17875/social-service-assistant-935x572.jpg" alt="">
+                        </div>
+                        <div class="gallery">
+                            <img src="https://markallenassets.blob.core.windows.net/communitycare/wp-content/uploads/sites/7/2013/10/Homecare-worker_Image-Source-Rex-400.jpg" alt="">
+                        </div>
+                        <div class="gallery">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgpbUrWxZVaQe0Tog9aw5-jqpvXoInEWZ4c1S4zYcQGfwHiDRtSeSCq_atGZd6pveQEeQ&usqp=CAU" alt="">
+                        </div>
+                        <div class="gallery">
+                            <img src="https://hci-aws-media.s3-accelerate.amazonaws.com/2020/11/Age-UK-report.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="container-category">
+                        <div class="box">
+                            <div class="icon-category">
+                                <i class='bx bx-medal'></i>
+                            </div>
+                            <div class="tittle-category">
+                                <b>Sosial</b>
+                            </div>
+                            <div class="text-content-category">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur in inventore praesentium rerum</p>
+                            </div>
+                            <a href="#">
+                                <div class="button-category">Lihat</div>
+                            </a>
+                        </div>
+                        <div class="box">
+                            <div class="icon-category">
+                                <i class='bx bx-donate-heart'></i>
+                            </div>
+                            <div class="tittle-category">
+                                <b>Kesehatan</b>
+                            </div>
+                            <div class="text-content-category">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur in inventore praesentium rerum</p>
+                            </div>
+                            <a href="#">
+                                <div class="button-category">Lihat</div>
+                            </a>
+                        </div>
+                        <div class="box">
+                            <div class="icon-category">
+                                <i class='bx bx-body'></i>
+                            </div>
+                            <div class="tittle-category">
+                                <b>Kemanusiaan</b>
+                            </div>
+                            <div class="text-content-category">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur in inventore praesentium rerum</p>
+                            </div>
+                            <a href="#">
+                                <div class="button-category">Lihat</div>
+                            </a>
+                        </div>
+                        <div class="box">
+                            <div class="icon-category">
+                                <i class='bx bx-globe'></i>
+                            </div>
+                            <div class="tittle-category">
+                                <b>Lingkungan</b>
+                            </div>
+                            <div class="text-content-category">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur in inventore praesentium rerum</p>
+                            </div>
+                            <a href="#">
+                                <div class="button-category">Lihat</div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -81,11 +163,11 @@
         <!-- End Container | Left-Right Margin 50px -->
         
         <!-- Start Footer  -->
-        <div id="footer" class="footer">
+        <!-- <div id="footer" class="footer">
             <div class="content-footer">
                 <p>Footer</p>
             </div>
-        </div>
+        </div> -->
         <!-- End Footer  -->
 
     </section>
